@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "dca01ad1-b352-4ce3-975d-f2610b3d74db",
+		"name": "REST Notes API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "49ba5627-5c77-4906-b1d1-21bcd9a4d2f1",
+			"name": "GET notes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "localhost:8000/notes",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "4cda2703-e2e6-4484-b505-29009cfb752f",
+			"name": "POST note",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "5",
+							"sessionValue": "5",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "test title",
+							"sessionValue": "test title",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "test body",
+							"sessionValue": "test body",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/notes",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"notes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
