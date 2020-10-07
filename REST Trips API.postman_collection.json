@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "GET trips",
+			"name": "GET all trips",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -29,7 +29,7 @@
 			"response": []
 		},
 		{
-			"name": "GET trip",
+			"name": "GET trip by id",
 			"request": {
 				"method": "GET",
 				"header": [
