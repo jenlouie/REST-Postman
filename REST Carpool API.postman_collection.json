@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "fb54dea9-fd97-4bc5-bdb9-0d0624114e4e",
-		"name": "REST Trips API",
+		"name": "REST Carpool API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
